@@ -6,15 +6,16 @@ Then, two methods, Patch and Posy, are implemented via the API. Patch checks the
 For the plugin to work correctly, it is necessary:
 
 1. First, you need to copy the repository and install the necessary packages:
-
+```  
   $ git clone https://github.com/DarkFan911/netbox_nmap.git
   $ python3 -m venv venv
   $ source venv/bin/activate
   $ pip install -r requirements.txt
+```
 
-2. In the networks.txt file in the root of the project, specify the necessary subnets.
-3. In the netbox-scanner.conf file, specify the address in the '10.x.x.x' format and the API authorization token in the 'token' format
-4. In the __init__.py file in the nbc folder, at the end of the year, add the token and the netbox address in the 'https://x.x.x.x' format
+3. In the networks.txt file in the root of the project, specify the necessary subnets.
+4. In the netbox-scanner.conf file, specify the address in the '10.x.x.x' format and the API authorization token in the 'token' format
+5. In the __init__.py file in the nbc folder, at the end of the year, add the token and the netbox address in the 'https://x.x.x.x' format
 
 The script is launched from the root folder with the nmap-scan.sh shell file
 
@@ -29,11 +30,12 @@ I will also optimize the code in the near future and make dynamic values ​​i
 Для корректной работы плагина,необходимо:
 
 1. Для начала необходимо скопировать репозиторий и поставить необходимые пакеты:
-
+```
   $ git clone https://github.com/DarkFan911/netbox_nmap.git
   $ python3 -m venv venv
   $ source venv/bin/activate
   $ pip install -r requirements.txt 
+```
 
 2. В файле networks.txt в корне проекта прописать необходимые подсети.
 3. В файле netbox-scanner.conf прописать адрес в формате '10.x.x.x' и токен авторизации по API в формате 'token'
