@@ -1,7 +1,7 @@
 # netbox_nmap
 
-The script selects data about subnets from the networks.txt file, parses the nmap output, extracts the address and description values ​​into XML, and then converts them into JSON format.
-Then, two methods, Patch and Posy, are implemented via the API. Patch checks the changes, Post creates hosts from the received data output.
+The script reads subnet data from the networks.txt file and parses the Nmap output, extracts the address and description values ​​into XML. Then it converts the data received in XML format into JSON.
+Then the API implements two methods Patch and Post. Patch checks the changes, Post creates hosts from the received data output.
 
 For the plugin to work correctly, it is necessary:
 
@@ -24,8 +24,8 @@ I will also optimize the code in the near future and make dynamic values ​​i
 
 ===========================================================================
 
-Скрипт выбирает из файла networks.txt данные о подсетях парсит вывод нмап, извлекает значения адресс и дескрипшен в XML, а затем конвертировать в формат в JSON.
-Далее по АПИ реализованы два метода Patch и Posy. Patch сверяет изменения, Post создает хосты с полученных вывода данных.
+Скрипт считывает из файла networks.txt данные о подсетях и парсит вывод Nmap, извлекает значения address и description в XML. Затем конвертирует данные полученные в формате XML в JSON.
+Далее по API реализованы два метода Patch и Post. Patch сверяет изменения, Post создает хосты с полученных вывода данных.
 
 Для корректной работы плагина,необходимо:
 
