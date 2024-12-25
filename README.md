@@ -15,7 +15,7 @@ For the plugin to work correctly, it is necessary:
 
 3. In the networks.txt file in the root of the project, specify the necessary subnets.
 4. In the netbox-scanner.conf file, specify the address in the '10.x.x.x' format and the API authorization token in the 'token' format
-5. In the __init__.py file in the nbc folder, at the end of the year, add the token and the netbox address in the 'https://x.x.x.x' format
+5. In the __init__.py file in the nbc folder, at the end of the code, add the token and the netbox address in the 'https://x.x.x.x' format
 
 The script is launched from the root folder with the nmap-scan.sh shell file
 
