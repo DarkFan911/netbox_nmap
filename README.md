@@ -20,7 +20,7 @@ For the plugin to work correctly, it is necessary:
 The script is launched from the root folder with the nmap-scan.sh shell file
 
 More detailed nmap scanning results will be implemented in the future.
-I will also optimize the code in the near future and make dynamic values ​​in point 3 that will be automatically substituted from the conf file in the root directory.
+I will also optimize the code in the near future and make dynamic values ​​in point 4 that will be automatically substituted from the conf file in the root directory.
 
 ===========================================================================
 
@@ -44,4 +44,4 @@ I will also optimize the code in the near future and make dynamic values ​​i
 Скрипт запускается с корневой папки с shell файла nmap-scan.sh
 
 В дальнейшем будет реализованы более подробные результаты сканирования nmap.
-Так же в ближайшее время оптимизирую код и и сделаю в пункте 3 динамические значения которые будут автоматически подставляться с конф файла в корневой директории.
+Так же в ближайшее время оптимизирую код и и сделаю в пункте 4 динамические значения которые будут автоматически подставляться с конф файла в корневой директории.
