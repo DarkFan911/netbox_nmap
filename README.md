@@ -7,14 +7,14 @@ For the plugin to work correctly, it is necessary:
 
 1. In the networks.txt file in the root of the project, specify the necessary subnets.
 2. In the netbox-scanner.conf file, specify the address in the '10.x.x.x' format and the API authorization token in the 'token' format
-3 In the __init__.py file in the nbc folder, at the end of the year, add the token and the netbox address in the 'https://x.x.x.x' format
+3. In the __init__.py file in the nbc folder, at the end of the year, add the token and the netbox address in the 'https://x.x.x.x' format
 
 The script is launched from the root folder with the nmap-scan.sh shell file
 
 More detailed nmap scanning results will be implemented in the future.
 I will also optimize the code in the near future and make dynamic values ​​in point 3 that will be automatically substituted from the conf file in the root directory.
 
-
+=========================================================================================
 
 Скрипт выбирает из файла networks.txt данные о подсетях парсит вывод нмап, извлекает значения адресс и дескрипшен в XML, а затем конвертировать в формат в JSON.
 Далее по АПИ реализованы два метода Patch и Posy. Patch сверяет изменения, Post создает хосты с полученных вывода данных.
@@ -23,7 +23,7 @@ I will also optimize the code in the near future and make dynamic values ​​i
 
 1. В файле networks.txt в корне проекта прописать необходимые подсети.
 2. В файле netbox-scanner.conf прописать адрес в формате '10.x.x.x' и токен авторизации по API в формате 'token'
-3 В файле __init__.py  в папке nbc, в конце года дописать token и адрес netbox в формате 'https://x.x.x.x'
+3. В файле __init__.py  в папке nbc, в конце года дописать token и адрес netbox в формате 'https://x.x.x.x'
 
 Скрипт запускается с корневой папки с shell файла nmap-scan.sh
 
