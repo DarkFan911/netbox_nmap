@@ -1,0 +1,8 @@
+certifi
+chardet
+idna
+pynetbox
+requests
+six
+urllib3
+
