@@ -22,7 +22,7 @@ The script is launched from the root folder with the nmap-scan.sh shell file
 More detailed nmap scanning results will be implemented in the future.
 I will also optimize the code in the near future and make dynamic values ​​in point 3 that will be automatically substituted from the conf file in the root directory.
 
-=========================================================================================
+===========================================================================
 
 Скрипт выбирает из файла networks.txt данные о подсетях парсит вывод нмап, извлекает значения адресс и дескрипшен в XML, а затем конвертировать в формат в JSON.
 Далее по АПИ реализованы два метода Patch и Posy. Patch сверяет изменения, Post создает хосты с полученных вывода данных.
